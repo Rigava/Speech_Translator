@@ -5,7 +5,7 @@ import os
 from groq_translation import groq_translate
 from gtts import gTTS 
 # Set page config
-st.set_page_config(page_title='Groq Translator', page_icon='🎤')
+st.set_page_config(page_title='Josh@i Translator', page_icon='🎤')
 
 # Set page title
 st.title('Groq Translator')
