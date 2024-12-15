@@ -8,8 +8,8 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 import os
 # Set up the Groq client
-load_dotenv()
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+key=st.secrets.API_KEY
+client = Groq(api_key=key)
 
 # Model for the translation
 class Translation(BaseModel):
