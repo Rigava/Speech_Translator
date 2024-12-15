@@ -1,0 +1,4 @@
+groq
+audio-recorder-streamlit 
+faster-whisper 
+gTTS
