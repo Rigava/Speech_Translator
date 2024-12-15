@@ -4,6 +4,7 @@ from typing import Optional
 from groq import Groq
 from pydantic import BaseModel
 import os
+import streamlit as st
 # Set up the Groq client
 key=st.secrets.API_KEY
 client = Groq(api_key=key)
