@@ -8,7 +8,7 @@ from gtts import gTTS
 st.set_page_config(page_title='Josh@i Translator', page_icon='🎤')
 
 # Set page title
-st.title('Groq Translator')
+st.title('Josh@i Translator')
 
 languages = {
    "Portuguese": "pt",
