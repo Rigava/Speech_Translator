@@ -1,11 +1,8 @@
 # groq_translation.py
 import json
 from typing import Optional
-
-# from decouple import config
 from groq import Groq
 from pydantic import BaseModel
-from dotenv import load_dotenv
 import os
 # Set up the Groq client
 key=st.secrets.API_KEY
